@@ -1,5 +1,5 @@
 title = "Airspace for Hugo"
-baseURL = "https://examplesite.com"
+baseURL = ""
 languageCode = "en-us"
 theme = "airspace-hugo"
 
