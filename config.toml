@@ -1,59 +1,92 @@
-title = "Airspace for Hugo"
+title = "Antios Therapeutics"
 baseURL = "https://antios-therapeutics.netlify.com/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
+[menu]
+
+  [[menu.header]]
+    weight = 2
+    name = "Science"
+    url = "/science"
+  [[menu.header]]
+    weight = 3
+    name = "About"
+    url = "/about"
+  [[menu.header]]
+    weight = 4
+    name = "News"
+    url = "/news"
+  [[menu.header]]
+    weight = 5
+    name = "Contact"
+    url = "/contact"
+  
+  [[menu.footer]]
+    weight = 1
+    name = "About"
+    url = "/about"
+  [[menu.footer]]
+    weight = 2
+    name = "Contact us"
+    url = "#"
+  [[menu.footer]]
+    weight = 3
+    name = "How it works"
+    url = "#"
+  [[menu.footer]]
+    weight = 4
+    name = "Blog"
+    url = "#"
+  [[menu.footer]]
+    weight = 5
+    name = "Terms"
+    url = "#"
+	
+  [[menu.science]]
+    weight = 1
+    name = "Overview"
+    url = "/overview"
+  [[menu.science]]
+    weight = 2
+    name = "Publications"
+    url = "/publications"
+	
+  [[menu.about]]
+    weight = 1
+    name = "Leadership"
+    url = "#"
+  [[menu.about]]
+    weight = 2
+    name = "Board of Directors"
+    url = "# "	
+  [[menu.about]]
+    weight = 3
+    name = "Scientific Advisors"
+    url = "#"
+  [[menu.about]]
+    weight = 4
+    name = "Investors"
+    url = "#"
+
 # The site's parameters
 [params]
+
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+  date_format = "6 January 2006"
+
   home = "Home"
-  
-  [menu]
-
-    [[menu.header]]
-      weight = 2
-      name = "Work"
-      url = "/work"
-    [[menu.header]]
-      weight = 4
-      name = "Service"
-      url = "/service"
-    [[menu.header]]
-      weight = 5
-      name = "Contact"
-      url = "/contact"
-
-    [[menu.footer]]
-      weight = 1
-      name = "About us"
-      url = "#"
-    [[menu.footer]]
-      weight = 2
-      name = "Contact us"
-      url = "#"
-    [[menu.footer]]
-      weight = 3
-      name = "How it works"
-      url = "#"
-    [[menu.footer]]
-      weight = 4
-      name = "Blog"
-      url = "#"
-    [[menu.footer]]
-      weight = 5
-      name = "Terms"
-      url = "#"
 
   [params.slider]
     enable = true
-    title = "A digital marketing &amp; design agency"
-    subtitle = "We love the Web and the work we do.<br/>We work closely with our clients to deliver the best possible solutions for their needs"
-    bgImage = "img/slider-bg.jpg"
-    btnText = "Discover Our Projects"
-    url = "#"
+    title = "Antios' mission is to develop innovative therapies to treat and cure viral diseases."
+   # subtitle = "We love the Web and the work we do.<br/>We work closely with our clients to deliver the best possible solutions for their needs"
 
   [params.wrapper]
     enable = true
-    image = "img/wrapper-img.png"
     title = "About Us"
     italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
     paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
@@ -66,7 +99,6 @@ theme = "airspace-hugo"
   [params.feature]
     enable = true
     title = "We believe in great ideas"
-    bgImage = "img/feature-bg.jpg"
     content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
     [params.feature.button]
       caption = "View Works"
@@ -74,17 +106,13 @@ theme = "airspace-hugo"
 
   [params.call]
     enable = true
-    bgImage = "img/call-to-action-bg.jpg"
     title = "We design delightful digital experiences."
     paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
-    [params.call.button]
-      url = "#"
-      text = "tell us your story"
 
   [params.contact]
     enable = true
     title = "Drop us a note"
-    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+   # subtitle = "Don’t just take our word for it. Check out some of our latest work."
     [params.contact.form]
       name = "Your name"
       email = "Your email"
@@ -98,3 +126,5 @@ theme = "airspace-hugo"
       phone = "Phone: +88 01672 506 744"
     [params.contact.gmaps]
       title = "We Also Count in Google Maps"
+	  
+   
