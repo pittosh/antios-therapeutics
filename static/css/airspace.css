@@ -124,17 +124,20 @@ header .navbar-brand, header .navbar {
   height: 100%;
   background: linear-gradient(to left, #8b86a3, #322e40);
   opacity: 0.8;
+  background: inherit!important;
 }
 #slider .block {
   color: #E3E3E4;
 }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 45px;
   line-height: 60px;
-  letter-spacing: 10px;
+  letter-spacing: 6px;
   padding-bottom: 45px;
+  color: #222;
+  text-transform: inherit;
 }
 #slider .block p {
   font-size: 23px;
@@ -830,6 +833,36 @@ footer .footer-manu ul li a:hover {
 }
 .p-b-25 {
 	padding-bottom:25px!important;
+}
+
+.navbar-default {
+    background-color: #bbb;
+    border-color: #bbb;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 16px;
+}
+.main-nav .navbar-nav {
+    float: inherit!important;
+    text-align: center;
+}
+.main-nav .navbar-nav li {
+    float: inherit!important;
+    display: inline-block;
+}
+.main-nav .nav li a {
+    padding: 15px 30px!important;
+}
+#call-to-action {
+	margin-top:20px;
+}
+#feature .btn-view-works {
+    margin-top: 15px;
+}
+.navbar-static-top {
+    position: fixed;
+    width: 100%;
 }
 /* :::::: XTRA CSS ends ::::::::: */
 
