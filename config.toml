@@ -76,7 +76,8 @@ theme = "airspace-hugo"
   # This license is offered with a 50% discount for all Hugo users.
   # For information see https://github.com/gohugoio/hugoThemes/issues/260
 
-  date_format = "6 January 2006"
+# date_format = "2.1.2006"
+  date_format = "Monday, Jan 2, 2006" 
 
   home = "Home"
 
@@ -93,8 +94,8 @@ theme = "airspace-hugo"
 
   [params.blog]
     enable = true
-    title = "Get The Latest On What We're doing"
-    subtitle = "Catch up with us, anytime and anywhere"
+    title = "News"
+    subtitle = ""
 
   [params.feature]
     enable = true

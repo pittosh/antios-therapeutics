@@ -109,7 +109,7 @@ header .navbar-brand, header .navbar {
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 10% 0%;
+  background-position: left top;
   padding: 200px 0 280px 0;
   position: relative;
 }
@@ -132,12 +132,14 @@ header .navbar-brand, header .navbar {
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 45px;
+  font-size: 46px;
   line-height: 60px;
-  letter-spacing: 6px;
+  letter-spacing: inherit;
   padding-bottom: 45px;
   color: #222;
   text-transform: inherit;
+  margin-top: 100px;
+  text-align:center;
 }
 #slider .block p {
   font-size: 23px;
@@ -864,6 +866,11 @@ footer .footer-manu ul li a:hover {
     position: fixed;
     width: 100%;
 }
+.navbar-brand  img {
+    width: 152px;
+    margin-top: 5px;
+}
+
 /* :::::: XTRA CSS ends ::::::::: */
 
 
