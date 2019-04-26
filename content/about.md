@@ -5,6 +5,6 @@ bgImage = "img/slider-bg.jpg"
 +++
 
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Antios Therapeutics' mission is to develop innovative medicines to treat and cure viral diseases. With our lead oral candidate (ATI-2173) we are aiming to develop a cure for chronic Hepatitis B, a major global health epidemic affecting hundreds of millions of individuals worldwide.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+From early progress with HIV drugs to the development of the first cure for Hepatitis C, our team has decades of experience in developing life changing therapies.

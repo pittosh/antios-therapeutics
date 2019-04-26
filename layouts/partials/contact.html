@@ -6,16 +6,16 @@
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form>
+          <form method="POST" action="https://formspree.io/pittosh@citrusinformatics.com">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="{{ .form.name }}">
+              <input type="text" name="name" class="form-control" placeholder="{{ .form.name }}">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="{{ .form.email }}">
+              <input type="text" name="email" class="form-control" placeholder="{{ .form.email }}">
             </div>
-            <div class="form-group">
+           <!-- <div class="form-group">
               <input type="text" class="form-control" placeholder="{{ .form.subject }}">
-            </div>
+            </div>-->
           </form>
         </div>
       </div>
@@ -23,7 +23,7 @@
         <div class="block">
           <form>
             <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="{{ .form.message }}"></textarea>
+              <textarea class="form-control" name="message" rows="3" placeholder="{{ .form.message }}"></textarea>
             </div>
             <button class="btn btn-default" type="submit">{{ .form.button }}</button>
           </form>
@@ -36,15 +36,18 @@
 
           <h2>{{ .box.title }}</h2>
           <ul class="address-block">
-            <li>
+            <!--<li>
               <i class="fa fa-map-marker"></i>{{ .box.address }}
-            </li>
+            </li>-->
             <li>
               <i class="fa fa-envelope-o"></i>{{ .box.email }}
             </li>
-            <li>
-              <i class="fa fa-phone"></i>{{ .box.phone }}
+			<li>
+              <i class="fa fa-envelope-o"></i>{{ .box.email2 }}
             </li>
+            <!--<li>
+              <i class="fa fa-phone"></i>{{ .box.phone }}
+            </li>-->
           </ul>
           <ul class="social-icons">
           {{ range .social }}  
@@ -60,7 +63,7 @@
         <div class="block">
           <h2>{{ .title }}</h2>
             <div class="google-map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.472979439986!2d-73.97769068489596!3d40.7516207793276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2590247c56379%3A0x15e13bea38b43e18!2sChrysler+Building!5e0!3m2!1sen!2sus!4v1477406538220" width="555" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106135.29706072665!2d-84.4906435934256!3d33.767693119751215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5045d6993098d%3A0x66fede2f990b630b!2sAtlanta%2C+GA%2C+USA!5e0!3m2!1sen!2sin!4v1556174509647!5m2!1sen!2sin" width="555" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
         {{ end }}
