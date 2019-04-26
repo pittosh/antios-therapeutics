@@ -871,6 +871,18 @@ footer .footer-manu ul li a:hover {
     margin-top: 5px;
 }
 
+
+/*custom css*/
+
+.cform {
+background:#F6F8FA!important;
+
+}
+.btn-default{
+margin-top:10px !important;
+}
+
+
 /* :::::: XTRA CSS ends ::::::::: */
 
 
