@@ -53,12 +53,12 @@ a:active {
 }
 .section-title h2 {
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 33px;
   font-weight: 600;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
-  font-style: italic;
+ /* font-family: 'Volkhov', serif;
+  font-style: italic;*/
   color: #666;
 }
 /*--
@@ -267,7 +267,7 @@ header .navbar-brand, header .navbar {
   padding: 100px 0;
 }
 #feature h2 {
-  font-size: 28px;
+  font-size: 33px;
   font-weight: 600;
   margin-bottom: 30px;
 }
@@ -371,14 +371,26 @@ header .navbar-brand, header .navbar {
 /*--
 	Slider-work Start
 --*/
-#global-header {
+/*#global-header {
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
   position: relative;
   background-attachment: fixed;
+}*/
+#global-header {
+  background: url("../img/contact-slider-bg.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: left 35%;
 }
+.cus-topspace + #global-header {padding-top: 250px;}
+#global-header h1{padding:0px !important; margin:0px !important;}
+main{min-height:420px;}
 #global-header:before {
   content: "";
   position: absolute;
@@ -411,6 +423,9 @@ header .navbar-brand, header .navbar {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+.investor{text-align:center;}
+.investor img{width: 300px;}
+
 /*--
 	portfolio-work Start
 --*/
@@ -821,10 +836,15 @@ footer .footer-manu ul li a:hover {
 }
 
 /* :::::: XTRA CSS starts ::::::::: */
-.cus-topspace {
+/*.cus-topspace {
 	position: relative;
     padding-top: 100px;
+}*/
+.cus-topspace {
+    position: absolute;
+    top: 100px;
 }
+
 
 
 .m-b-0 {

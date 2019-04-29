@@ -1,8 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{ partial "head.html" . }}
+</head>
+<body>
+
+	{{ partial "header.html" . }}
 {{ partial "global-header.html" .Site.Params.contact }}
 <!-- contact form start -->
 {{ with .Site.Params.contact }}
-<section id="contact-form">
-  <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
@@ -73,3 +79,11 @@
   </div>
 </section>
 {{ end }}
+
+{{ partial "call-to-action.html" . }}
+
+	{{ partial "footer.html" . }}
+
+	
+</body>
+</html>

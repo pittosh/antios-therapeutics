@@ -9,11 +9,30 @@
 		{{ if isset .Params "id" }}
 		{{ partial .Params.id . }}
 	{{ else }}
-		{{ partial "global-header.html"}}
+		<!-- {{ partial "global-header.html"}} -->
+		<section id="global-header">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				<div class="block">
+				  <h1>{{ .Title }} </h1>
+				 
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</section>
 		<main>
 		<div class="container">
-		<h1>{{.Title}} </h1>
+		{{ if eq .Slug "investors" }} 
+		<div class="investor">
+		{{ end }}
+		<!-- <h1>{{.Title}} </h1>-->
+		 <p>&nbsp;</p>
 		{{ .Content }}
+		{{ if eq .Slug "investors" }} 
+		</div>
+		{{ end }}
 		</div>
 		</main>
 	{{ end }}

@@ -1,7 +1,8 @@
 +++
 title = "Science"
 slug = "science"
-bgImage = "img/slider-bg.jpg"
+
+bgImage = "img/slider-bg1.jpg"
 +++
 
 
