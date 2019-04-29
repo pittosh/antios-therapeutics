@@ -24,24 +24,24 @@ theme = "airspace-hugo"
   
   [[menu.footer]]
     weight = 1
+    name = "Science"
+    url = "/science"
+  [[menu.footer]]
+    weight = 2
     name = "About"
     url = "/about"
   [[menu.footer]]
-    weight = 2
-    name = "Contact us"
-    url = "#"
-  [[menu.footer]]
     weight = 3
-    name = "How it works"
-    url = "#"
+    name = "News"
+    url = "/news"
   [[menu.footer]]
     weight = 4
-    name = "Blog"
-    url = "#"
-  [[menu.footer]]
-    weight = 5
-    name = "Terms"
-    url = "#"
+    name = "Contact"
+    url = "/contact"
+  #[[menu.footer]]
+  #  weight = 5
+  #  name = "Terms"
+  #  url = "#"
 	
   [[menu.science]]
     weight = 1
