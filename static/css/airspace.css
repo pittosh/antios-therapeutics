@@ -905,6 +905,9 @@ margin-top:10px !important;
 #global-header:before {
     opacity: 0.0!important;
 }
+.aboutImage{
+	margin-top:30px;
+}
 
 /* :::::: XTRA CSS ends ::::::::: */
 
