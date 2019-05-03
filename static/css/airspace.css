@@ -381,12 +381,12 @@ header .navbar-brand, header .navbar {
 }*/
 #global-header {
   background: url("../img/contact-slider-bg.jpg") no-repeat;
-  background-size: cover;
+  background-size: inherit;
   padding-top: 200px;
   padding-bottom: 100px;
   position: relative;
-  background-attachment: fixed;
-  background-position: left 35%;
+  background-attachment: inherit;
+  background-position: center;
 }
 .cus-topspace + #global-header {padding-top: 250px;}
 #global-header h1{padding:0px !important; margin:0px !important;}
@@ -406,16 +406,17 @@ main{min-height:420px;}
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
+  /*padding-left: 90px;*/
   text-align: center;
 }
 #global-header .block h1 {
-  font-weight: 100;
+  font-weight: 500;
   font-size: 45px;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
   padding-bottom: 15px;
   margin-top: 0;
   text-transform: capitalize;
+  color: #000;
 }
 #global-header .block p {
   font-size: 16px;
@@ -901,7 +902,9 @@ background:#F6F8FA!important;
 .btn-default{
 margin-top:10px !important;
 }
-
+#global-header:before {
+    opacity: 0.0!important;
+}
 
 /* :::::: XTRA CSS ends ::::::::: */
 
