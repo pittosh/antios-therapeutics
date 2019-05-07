@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{ partial "head.html" . }}
+</head>
+<body>
+
+	{{ partial "header.html" . }}
+		{{ if isset .Params "id" }}
+		{{ partial .Params.id . }}
+	{{ else }}
+		<!-- {{ partial "global-header.html"}} -->
+		<section id="global-header">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				<div class="block">
+				  <h1>{{ .Title }} </h1>
+				 
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</section>
+		<main>
+		<div class="container">
+		{{ if eq .Slug "board-of-directors" }} 
+		<div class="investor">
+		{{ end }}
+			
+		  
+		 
+		
+			
+		 
+		 
+		 <div class="directors-row">
+		 <div class="row">
+		  {{ range first 5 (where .Site.Pages "Type" "bod") }}
+		 <div class="col-md-3">
+		 <aside>
+		 
+		 <a href="{{ .Permalink }}"><img{{ with .Params.bgImage }} src="{{ . }}"{{ end }} alt="{{ .Title }}" class="img-responsive"></a>
+		 <div class="details">
+		 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+		 <h5>{{ .Params.position }}</h5>
+		 </div>
+		 </aside>
+		 </div>
+		 {{ end }}
+		 </div>
+		 
+		 </div>
+		 
+		 
+		  
+		{{ if eq .Slug "board-of-directors" }} 
+		</div>
+		{{ end }}
+		</div>
+		</main>
+	{{ end }}
+
+	{{ partial "call-to-action.html" . }}
+
+	{{ partial "footer.html" . }}
+
+	
+</body>
+</html>

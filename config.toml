@@ -59,7 +59,7 @@ theme = "airspace-hugo"
   [[menu.about]]
     weight = 2
     name = "Board of Directors"
-    url = "# "	
+    url = "/board-of-directors"	
   [[menu.about]]
     weight = 3
     name = "Scientific Advisors"

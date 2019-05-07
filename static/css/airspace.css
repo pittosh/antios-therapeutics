@@ -152,7 +152,8 @@ header .navbar-brand, header .navbar {
 	wrapper Start
 --*/
 #intro {
-  padding: 100px 0;
+  /*padding: 100px 0;*/
+  padding: 0px;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -164,11 +165,15 @@ header .navbar-brand, header .navbar {
   padding-top: 20px;
 }
 #intro .block img {
-  padding-left: 40px;
-  width: 100%;
+ /* padding-left: 40px;
+  width: 100%;*/
+	padding-left: 0px;
+    width: 100%;
+    
 }
 #intro .section-title {
   margin-bottom: 0px;
+  padding-top:55px;
 }
 #intro .section-title p {
   padding-top: 20px;
@@ -387,6 +392,7 @@ header .navbar-brand, header .navbar {
   position: relative;
   background-attachment: inherit;
   background-position: center;
+  background-size: cover;
 }
 .cus-topspace + #global-header {padding-top: 250px;}
 #global-header h1{padding:0px !important; margin:0px !important;}
@@ -886,6 +892,7 @@ footer .footer-manu ul li a:hover {
 .navbar-static-top {
     position: fixed;
     width: 100%;
+	z-index: 1;
 }
 .navbar-brand  img {
     width: 152px;
@@ -896,19 +903,143 @@ footer .footer-manu ul li a:hover {
 /*custom css*/
 
 .cform {
-background:#F6F8FA!important;
+	background:#F6F8FA!important;
 
 }
 .btn-default{
-margin-top:10px !important;
+	margin-top:10px!important;
 }
 #global-header:before {
-    opacity: 0.0!important;
+    opacity: 0.5!important;
+	
 }
 .aboutImage{
-	margin-top:30px;
+	margin-top:0px;
+}
+#intro p {
+	font-size: 14px!important;
+    line-height: 1.42857143!important;
+    color: #333!important;
+	margin:0px;
+	padding:0px;
+}
+#intro .block {
+	margin-top:0px;
+}
+.directors-row {
+	margin-top:40px;
+}
+.directors-row  aside{
+	text-align:center;
+	border:1px solid #dbdbdb;
+	padding: 10px;
+	margin-bottom:25px;
+}
+.directors-row  aside .details{
+	min-height:100px;
+}
+.img-responsive {
+	display:inline-block!important;
+}
+.directors-row  h4 {
+	margin-bottom:0px;
+}
+.directors-row  h4 a {
+	color:#333;
+}
+.directors-row  a {
+	outline:0px!important;
+}
+.directors-row  h5 {
+	margin-top:5px;
+	font-weight:300;
+}
+.top-space {
+	padding-top:100px;
+}
+.top-space-2 {
+    padding-top: 170px;
+}
+.directors-details {
+	padding-bottom:35px;
+}
+.directors-details .directors-row {
+	margin-top:0px;
+}
+.directors-details .directors-row  h4 {
+	font-size:35px;
+}
+.directors-details .directors-row  h5 {
+	font-size:25px;
+}
+.directors-details .directors-row p {
+	text-align:left;
+	padding-top:0px!important;
+	padding-bottom:17px!important;
+}
+.m-t-15  {
+    margin-top: 15px!important;
+}
+/* :::::: XTRA CSS ends ::::::::: */
+
+/* :::::: Media Queries starts ::::::::: */
+@media (max-width:1199px) {
+#intro .section-title {
+    padding-top: 15px!important;
+}
 }
 
-/* :::::: XTRA CSS ends ::::::::: */
+@media (max-width:1024px) {
+#intro .section-title {
+    padding-top: 10px!important;
+}
+}
+
+@media (max-width:991px) {
+.aboutImage {
+    margin-top: 15px!important;
+}
+#intro {
+    margin-bottom: 15px!important;
+}
+}
+
+@media (max-width:800px) {
+}
+
+@media (max-width:767px) {
+.aboutImage {
+    margin-top: 15px!important;
+}
+#slider .block h1 {
+    line-height: inherit!important;
+}
+#intro {
+    margin-bottom: 15px!important;
+}
+p {
+    font-size: 13px!important;
+	line-height:21px!important;
+}
+.post-area a {
+    font-size: 22px!important;
+    line-height: 24px;
+    margin-bottom: 10px;
+    display: block;
+}
+.top-space h1 {
+    font-size: 22px!important;
+    line-height: 24px!important;
+}
+.top-space-2 {
+    padding-top: 150px!important;
+}
+ .post-area {
+    padding: 15px 0px!important;
+}
+
+}
+
+/* :::::: Media Queries ends ::::::::: */
 
 

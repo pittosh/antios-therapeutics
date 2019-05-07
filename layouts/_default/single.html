@@ -12,15 +12,17 @@
 	  <section id="intro" style="border: 1px dotted #ddd;">
 	    <div class="container">
 	      <div class="row">
-	        <div>
-	          <div class="block">
+	        <div class="col-md-12">
+	          <div class="block top-space">
 	            <h1>{{ .Params.title }}</h1>
 				<h4>{{ .Params.description }}</h4>
 	            <div class="post-info-wrapper">
 	              <p class="italic">By <span class="bold">{{ .Params.author }}</span> on <span class="bold">{{ .Date.Format .Site.Params.date_format }}</span></p>
 	            </div>
 	            <hr />
+				<img{{ with .Params.bgImage }} src="{{ . }}"{{ end }} alt="{{ .Title }}" class="img-responsive">
 				<p>{{ .Content }}</p>
+				
 	          </div>
 	        </div><!-- .col-md-7 close -->
 	      </div>
