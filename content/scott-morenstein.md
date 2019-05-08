@@ -3,7 +3,8 @@ title = "Scott Morenstein"
 slug = "scott-morenstein"
 bgImage = "/img/bod/Scott-Morenstein.jpg"
 type = "bod"
-position = "Managing Director"
+weight = "3"
+position = "CAM Capital"
 layout = "directors"
 +++
 

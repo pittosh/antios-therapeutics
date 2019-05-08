@@ -3,7 +3,8 @@ title = "Henry Chen"
 slug = "henry-chen"
 bgImage = "/img/bod/Henry_Chen.jpg"
 type = "bod"
-position = "Founder & Managing Partner"
+weight = "4"
+position = "Delos Capital"
 layout = "directors"
 +++
 
