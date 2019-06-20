@@ -1,10 +1,10 @@
 +++
-title = "Abel De La Rosa, Ph.D."
+title = "Abel De La Rosa, PhD"
 slug = "abel-de-la-rosa"
 bgImage = "/img/leadership/abel-de-la-rosa.jpg"
 type = "leadership"
 weight = "1"
-position = ""
+position = "Chief Executive Officer"
 layout = "directors"
 +++
 

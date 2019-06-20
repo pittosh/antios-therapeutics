@@ -16,9 +16,10 @@
           <ul class="counter-box clearfix">
             {{ range .Site.Data.testimonial.numbers }}
             <li>
-              <div class="block">
+              <div class="block people-count">
                 <i class="{{ .icon }}"></i>
                 <h4 class="counter">{{ .counter }}</h4>
+				<span class="people-txt">{{ .name }}</span>
                 <span>{{ .text }}</span>
               </div>
             </li>

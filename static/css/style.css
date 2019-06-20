@@ -32,3 +32,13 @@
 .post-area a:hover {
   color: #0D0017;
 }
+.people-count {}
+.people-count h4 {
+	margin-bottom: 0px!important;
+}
+.people-txt {
+	font-weight: 600;
+    font-size: 18px;
+    display: block;
+	margin-bottom:2px;
+}

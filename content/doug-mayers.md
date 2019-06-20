@@ -1,10 +1,10 @@
 +++
-title = "Doug Mayers, MD, FACP, FIDSA"
+title = "Doug Mayers, MD"
 slug = "doug-mayers"
 bgImage = "/img/leadership/doug-mayers.jpg"
 type = "leadership"
 weight = "2"
-position = ""
+position = "Chief Medical Officer"
 layout = "directors"
 +++
 

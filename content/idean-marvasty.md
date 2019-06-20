@@ -5,7 +5,7 @@ bgImage = "/img/leadership/idean-marvasty.jpg"
 type = "leadership"
 parent = "about"
 weight = "3"
-position = ""
+position = "Senior Vice President"
 layout = "directors"
 +++
 
