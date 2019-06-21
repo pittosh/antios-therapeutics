@@ -42,3 +42,12 @@
     display: block;
 	margin-bottom:2px;
 }
+.col-fix{width:12.5%; float:left;}
+.about-section{padding-bottom:25px;}
+.about-section h2{text-align:center;}
+.about-section .section-title {
+    padding-top: 20px !important;
+}
+#feature h2 { font-weight: 400; color:#2b8caa; font-size: 28px;}
+.section-title h2 { font-weight: 400; color:#2b8caa; font-size: 28px;}
+

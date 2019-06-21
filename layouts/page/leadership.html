@@ -36,8 +36,10 @@
 		 
 		 <div class="directors-row">
 		 <div class="row">
+		 <div class="col-md-3 col-fix"></div>
+		 
 		  {{ range first 5 (where .Site.Pages "Type" "leadership") }}
-		 <div class="col-md-4">
+		 <div class="col-md-3">
 		 <aside>
 		 
 		 <a href="{{ .Permalink }}"><img{{ with .Params.bgImage }} src="{{ . }}"{{ end }} alt="{{ .Title }}" class="img-responsive"></a>
@@ -48,6 +50,7 @@
 		 </aside>
 		 </div>
 		 {{ end }}
+		<div class="col-md-3 col-fix"></div>
 		 </div>
 		 
 		 </div>

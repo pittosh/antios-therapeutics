@@ -7,19 +7,19 @@ paragraph: >
 numbers:
   - icon: ion-ios-people
     counter: 2
-    name: billion people	
+    name: billion individuals	
     text: past and present infection
-  - icon: ion-ios-people
+  - icon: ion-erlenmeyer-flask-bubbles
     counter: 30 
-    name: million people	
+    name: million individuals	
     text: newly infected each year
-  - icon: ion-ios-people
+  - icon: ion-medkit
     counter: 250
-    name: million people	
+    name: million individuals	
     text: chronically infected
-  - icon: ion-ios-people
-    counter: 900,000
-    name:  people	
+  - icon: ion-clipboard
+    counter: 900
+    name:  thousand individuals	
     text: annual mortality from hepatitis B and related complications
 
 people:
