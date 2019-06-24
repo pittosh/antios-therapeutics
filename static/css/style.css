@@ -55,7 +55,7 @@ p{font-size: 16px;line-height: 26px;}
 #global-header:before {
     opacity: 0.3 !important;
 }
-.testi-section h3{font-size:22px; color:#2b8caa;margin-top: 10px;}
+.testi-section h3{font-size:22px; color:#2b8caa;margin-top: 10px; text-align:center;}
 .contact-dts h2{margin-top:0px !important;}
 #global-header{background:none !important;}
 img.img-header{
