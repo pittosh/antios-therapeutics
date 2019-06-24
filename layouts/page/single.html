@@ -11,11 +11,15 @@
 	{{ else }}
 		<!-- {{ partial "global-header.html"}} -->
 		<section id="global-header">
+		<!--<img src="../img/contact-slider-bg.jpg" alt="header img" class="img-header">-->
+		
+		<img{{ with .Params.bgImage }} src="{{ . }}"{{ end }} alt="{{ .Title }}" class="img-header">
+ <div class="bg-overlay"></div>
 		  <div class="container">
 			<div class="row">
 			  <div class="col-md-12">
 				<div class="block">
-				  <h1>{{ .Title }} </h1>
+				  <h1>{{ .Title }}</h1>
 				 
 				</div>
 			  </div>

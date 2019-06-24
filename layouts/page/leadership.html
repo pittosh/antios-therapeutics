@@ -11,6 +11,8 @@
 	{{ else }}
 		<!-- {{ partial "global-header.html"}} -->
 		<section id="global-header">
+		<img{{ with .Params.bgImage }} src="{{ . }}"{{ end }} alt="{{ .Title }}" class="img-header">
+        <div class="bg-overlay"></div>
 		  <div class="container">
 			<div class="row">
 			  <div class="col-md-12">
@@ -46,6 +48,7 @@
 		 <div class="details">
 		 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
 		 <h5>{{ .Params.position }}</h5>
+		 <h5>{{ .Params.subPosition }}</h5>
 		 </div>
 		 </aside>
 		 </div>

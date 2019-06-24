@@ -1,39 +1,27 @@
-{{ partial "global-header.html" .Site.Params.contact }}
+<!-- {{ partial "global-header.html" .Site.Params.contact }}-->
+<section id="global-header">
+		<!--<img src="../img/contact-slider-bg.jpg" alt="header img" class="img-header">-->
+		
+		<img{{ with .Params.bgImage }} src="{{ . }}"{{ end }} alt="{{ .Title }}" class="img-header">
+ <div class="bg-overlay"></div>
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				<div class="block">
+				  <h1>{{ .Title }}</h1>
+				 
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</section>
 <!-- contact form start -->
 {{ with .Site.Params.contact }}
 <section id="contact-form">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form method="POST" action="https://formspree.io/info@antiostherapeutics.com">
-            <div class="form-group">
-              <input type="text" name="name" required="true" class="form-control" placeholder="{{ .form.name }}">
-            </div>
-            <div class="form-group">
-              <input type="text" name="email" required="true" class="form-control" placeholder="{{ .form.email }}">
-            </div>
-           <!-- <div class="form-group">
-              <input type="text" class="form-control" placeholder="{{ .form.subject }}">
-            </div>-->
-         
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-         
-            <div class="form-group-2">
-              <textarea class="form-control cform" name="message" required="true" rows="3" placeholder="{{ .form.message }}"></textarea>
-			  <input type="hidden" name="_next" value="https://antios-therapeutics.netlify.com/contact/"/>
-            </div>
-            <button class="btn btn-default" type="submit">{{ .form.button }}</button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <div id="contact-box" class="row">
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
+      <div class="col-md-6 col-sm-12 contact-dts">
+         <div class="block">
 
           <h2>{{ .box.title }}</h2>
           <ul class="address-block">
@@ -41,10 +29,10 @@
               <i class="fa fa-map-marker"></i>{{ .box.address }}
             </li>-->
             <li>
-              <i class="fa fa-envelope-o"></i>{{ .box.email }}
+              <i class="fa fa-envelope-o"></i>Information: <a href="mailto:{{ .box.email }}" >{{ .box.email }}</a>
             </li>
 			<li>
-              <i class="fa fa-envelope-o"></i>{{ .box.email2 }}
+              <i class="fa fa-envelope-o"></i>Public Relations: <a href="mailto:{{ .box.email2 }}" >{{ .box.email2 }}</a>
             </li>
             <!--<li>
               <i class="fa fa-phone"></i>{{ .box.phone }}
@@ -60,6 +48,31 @@
         </div>
       </div>
       <div class="col-md-6 col-sm-12">
+        <div class="block">
+         <form method="POST" action="https://formspree.io/info@antiostherapeutics.com">
+            <div class="form-group">
+              <input type="text" name="name" required="true" class="form-control" placeholder="{{ .form.name }}">
+            </div>
+            <div class="form-group">
+              <input type="text" name="email" required="true" class="form-control" placeholder="{{ .form.email }}">
+            </div>
+           <!-- <div class="form-group">
+              <input type="text" class="form-control" placeholder="{{ .form.subject }}">
+            </div>-->
+            <div class="form-group-2">
+              <textarea class="form-control cform" name="message" required="true" rows="3" placeholder="{{ .form.message }}"></textarea>
+			  <input type="hidden" name="_next" value="https://antios-therapeutics.netlify.com/contact/"/>
+            </div>
+            <button class="btn btn-default" type="submit">{{ .form.button }}</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="contact-box" class="row">
+      <div class="col-md-6 col-sm-12">
+       
+      </div>
+      <!--<div class="col-md-6 col-sm-12">
         {{ with .gmaps}}
         <div class="block">
           <h2>{{ .title }}</h2>
@@ -68,7 +81,7 @@
             </div>
         </div>
         {{ end }}
-      </div>
+      </div> -->
     </div>
   </div>
 </section>

@@ -3,7 +3,9 @@
  * To find the original style.css that ships with Airspace, read airspace.css
  *
  */
-
+body{font-size: 16px;line-height: 26px;}
+p{font-size: 16px;line-height: 26px;}
+#intro p{font-size: 16px !important;line-height: 26px !important;}
  .italic {
    font-style: italic;
  }
@@ -43,11 +45,29 @@
 	margin-bottom:2px;
 }
 .col-fix{width:12.5%; float:left;}
-.about-section{padding-bottom:25px;}
-.about-section h2{text-align:center;}
+.about-section{padding:25px 0px 50px;}
+.about-section{text-align:center;}
 .about-section .section-title {
     padding-top: 20px !important;
 }
-#feature h2 { font-weight: 400; color:#2b8caa; font-size: 28px;}
-.section-title h2 { font-weight: 400; color:#2b8caa; font-size: 28px;}
+#feature h2 {color:#2b8caa; }
+.section-title h2 {color:#2b8caa;}
+#global-header:before {
+    opacity: 0.3 !important;
+}
+.testi-section h3{font-size:22px; color:#2b8caa;margin-top: 10px;}
+.contact-dts h2{margin-top:0px !important;}
+#global-header{background:none !important;}
+img.img-header{
+position: absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.bg-overlay{width:100%;height:100%; position:absolute;background:rgba(0, 0, 0, 0.3);content:"";left:0px;top:0px;}
+.news-header{width:100%;height:100%; position:absolute;background:#f4f4f4;content:"";left:0px;top:0px;}
+.news-global-header  h1{color:#2b8caa !important;}
 

@@ -1,7 +1,7 @@
 +++
 title = "Leadership"
 slug = "leadership"
-bgImage = "img/slider-bg.jpg"
+bgImage = "/img/contact-slider-bg.jpg"
 layout = "leadership"
 +++
 

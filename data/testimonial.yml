@@ -1,25 +1,26 @@
 enable: true
 title: Hepatitis B BY NUMBERS
+subtitle: HBV Infection Estimates By Region
 bgmImage: img/slider-bg.jpg
 paragraph: >
   
 
 numbers:
   - icon: ion-ios-people
-    counter: 2
-    name: billion individuals	
+    counter: 2,000,000,000
+    name: individuals	
     text: past and present infection
-  - icon: ion-erlenmeyer-flask-bubbles
-    counter: 30 
-    name: million individuals	
+  - icon: ion-clipboard 
+    counter: 30,000,000 
+    name: individuals	
     text: newly infected each year
-  - icon: ion-medkit
-    counter: 250
-    name: million individuals	
+  - icon: ion-erlenmeyer-flask-bubbles 
+    counter: 250,000,000
+    name: individuals	
     text: chronically infected
-  - icon: ion-clipboard
-    counter: 900
-    name:  thousand individuals	
+  - icon: ion-medkit
+    counter: 90,000
+    name: individuals	
     text: annual mortality from hepatitis B and related complications
 
 people:
