@@ -3,8 +3,10 @@
   <div class="row">
     <div class="col-md-6 col-md-offset-6">
       <h2 class="text-uppercase">{{ .Site.Params.feature.title }}</h2>
-      <div>
-      	{{ .Site.Params.feature.content | markdownify }}
+      <div class="global-cont">
+      	<p>{{ .Site.Params.feature.content | markdownify }}</p>
+		<p>{{ .Site.Params.feature.contentSec | markdownify }}</p>
+		<p>{{ .Site.Params.feature.contentThird | markdownify }}</p>
       </div>
       {{ with .Site.Params.feature.button }}
       	<a href="{{ .url }}" class="btn btn-view-works">{{ .caption }}</a>

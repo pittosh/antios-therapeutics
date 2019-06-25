@@ -3,8 +3,31 @@
  * To find the original style.css that ships with Airspace, read airspace.css
  *
  */
-body{font-size: 16px;line-height: 26px;}
-p{font-size: 16px;line-height: 26px;}
+ @font-face {
+    font-family: 'maison_neuebook';
+    src: url('../fonts/maisonneue-book-webfont.woff2') format('woff2'),
+         url('../fonts/maisonneue-book-webfont.woff') format('woff');
+		 url('../fonts/maisonneue-book-webfont.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'maison_neuelight';
+    src: url('../fonts/maisonneue-light-webfont.woff2') format('woff2'),
+         url('../fonts/maisonneue-light-webfont.woff') format('woff');
+		 url('../fonts/maisonneue-light-webfont.otf') format('woff');
+		 url('../fonts/maisonneue-light-webfont.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{font-size: 16px;line-height: 26px; font-family: 'maison_neuelight', sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-family: 'maison_neuebook', sans-serif;}
+p{font-size: 16px;line-height: 26px;font-family: 'maison_neuelight', sans-serif;}
+#contact-box .block h2, #slider .block h1, #slider-contact .block h1, #contact-box .block h2{font-family: 'maison_neuebook', sans-serif;}
+
+#slider .block p, #slider-contact .block p, #contact-form .block button{font-family: 'maison_neuelight', sans-serif;}
+
+
 #intro p{font-size: 16px !important;line-height: 26px !important;}
  .italic {
    font-style: italic;
@@ -56,7 +79,7 @@ p{font-size: 16px;line-height: 26px;}
     opacity: 0.3 !important;
 }
 .testi-section h3{font-size:22px; color:#2b8caa;margin-top: 10px; text-align:center;}
-.contact-dts h2{margin-top:0px !important;}
+.contact-dts h2{margin-top:0px !important; margin-bottom: 25px;}
 #global-header{background:none !important;}
 img.img-header{
 position: absolute;
@@ -68,6 +91,15 @@ height: 100%;
 object-fit: cover;
 }
 .bg-overlay{width:100%;height:100%; position:absolute;background:rgba(0, 0, 0, 0.3);content:"";left:0px;top:0px;}
-.news-header{width:100%;height:100%; position:absolute;background:#f4f4f4;content:"";left:0px;top:0px;}
+.news-header{width:100%;height:100%; position:absolute;background:#ffffff;content:"";left:0px;top:0px;}
 .news-global-header  h1{color:#2b8caa !important;}
+.global-cont p{margin-bottom:15px !important;}
+#testimonial .section-title {
+    margin-bottom: 20px;
+}
+.directors-row h5{margin-bottom: 0px;}
+.directors-row h3{margin-top: 3px;font-size: 12px;}
+
+.directors-details .directors-row h5{margin-bottom:0px;}
+.directors-details .directors-row h3{margin-top: 5px;font-size: 20px;}
 

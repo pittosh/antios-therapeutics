@@ -1,6 +1,6 @@
 enable: true
 title: Hepatitis B BY NUMBERS
-subtitle: HBV Infection Estimates By Region
+subtitle: Prevalence Estimates By Region
 bgmImage: img/slider-bg.jpg
 paragraph: >
   
@@ -19,7 +19,7 @@ numbers:
     name: individuals	
     text: chronically infected
   - icon: ion-medkit
-    counter: 90,000
+    counter: 900,000
     name: individuals	
     text: annual mortality from hepatitis B and related complications
 
