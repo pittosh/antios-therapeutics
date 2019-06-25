@@ -73,8 +73,8 @@ p{font-size: 16px;line-height: 26px;font-family: 'maison_neuelight', sans-serif;
 .about-section .section-title {
     padding-top: 20px !important;
 }
-#feature h2 {color:#2b8caa; }
-.section-title h2 {color:#2b8caa;}
+#feature h2 {color:#2b8caa; font-weight:300;}
+.section-title h2 {color:#2b8caa;font-weight:300;}
 #global-header:before {
     opacity: 0.3 !important;
 }
