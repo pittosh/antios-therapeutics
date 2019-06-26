@@ -78,7 +78,7 @@ p{font-size: 16px;line-height: 26px;font-family: 'maison_neuelight', sans-serif;
 #global-header:before {
     opacity: 0.3 !important;
 }
-.testi-section h3{font-size:22px; color:#2b8caa;margin-top: 10px; text-align:center;}
+.testi-section h3{font-size:22px; color:#2b8caa;margin-top: 32px; text-align:center;}
 .contact-dts h2{margin-top:0px !important; margin-bottom: 25px;}
 #global-header{background:none !important;}
 img.img-header{
@@ -102,4 +102,6 @@ object-fit: cover;
 
 .directors-details .directors-row h5{margin-bottom:0px;}
 .directors-details .directors-row h3{margin-top: 5px;font-size: 20px;}
+.leadership-section.directors-row aside{border:none !important;}
+#global-header  h1.block3{color: #2b8caa !important;}
 

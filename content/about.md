@@ -1,7 +1,7 @@
 +++
 title = "About"
 slug = "about"
-bgImage = "/img/contact-slider-bg.jpg"
+bgImage = "/img/aboutBg.jpg"
 +++
 
 

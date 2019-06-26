@@ -20,7 +20,7 @@
 	              <p class="italic">By <span class="bold">{{ .Params.author }}</span> on <span class="bold">{{ .Date.Format .Site.Params.date_format }}</span></p>
 	            </div>
 	            <hr />
-				<img{{ with .Params.bgImage }} src="{{ . }}"{{ end }} alt="{{ .Title }}" class="img-responsive">
+				<!-- <img{{ with .Params.bgImage }} src="{{ . }}"{{ end }} alt="{{ .Title }}" class="img-responsive"> -->
 				<p>{{ .Content }}</p>
 				
 	          </div>
@@ -29,9 +29,9 @@
 	    </div>
 	  </section>
 	</div>
-	<p class="center-text" style="padding: 30px;">
+	<!--<p class="center-text" style="padding: 30px;">
 	  <a href="{{ $.Site.BaseURL }}/blog">Back to blog</a>
-	</p>
+	</p>-->
 
 	{{ partial "call-to-action.html" . }}
 

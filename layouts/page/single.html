@@ -19,7 +19,7 @@
 			<div class="row">
 			  <div class="col-md-12">
 				<div class="block">
-				  <h1>{{ .Title }}</h1>
+				  <h1 {{ if eq .Slug "about" }} class="block3" {{ end }} >{{ .Title }}</h1>
 				 
 				</div>
 			  </div>
