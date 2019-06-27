@@ -1,5 +1,5 @@
 +++
-title = "Benjamin Rovinski, Ph.D"
+title = "Benjamin Rovinski, PhD"
 slug = "benjamin-rovinski"
 bgImage = "/img/bod/Benjamin_Rovinski.jpg"
 type = "bod"
