@@ -2,7 +2,7 @@
 title = "Board of Directors"
 slug = "board-of-directors"
 parent = "about"
-bgImage = "/img/contact-slider-bg.jpg"
+bgImage = "/img/aboutBg.jpg"
 layout = "board-of-directors"
 +++
 

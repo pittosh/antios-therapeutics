@@ -4,7 +4,7 @@ slug = "robert-g-gish"
 bgImage = "/img/scientific-advisors/robert_g_gish.jpg"
 type = "sa"
 weight = "1"
-position = "Adjunct Professor of Medicine"
+position = ""
 layout = "directors"
 +++
 

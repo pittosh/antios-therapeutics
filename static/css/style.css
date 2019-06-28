@@ -106,3 +106,10 @@ max-height: 300px;
 .leadership-section.directors-row aside{border:none !important;}
 #global-header  h1.block3{color: #2b8caa !important;}
 
+@media only screen and (max-width: 767px){
+	#testimonial .counter-box li h4 {font-size: 18px;}
+	#slider{background-attachment: initial;}
+    .cus-topspace .main-nav .navbar-nav li{display:block !important;}
+    .cus-topspace .main-nav .navbar-nav li a{text-align:left !important; padding: 8px 30px !important;}
+}
+

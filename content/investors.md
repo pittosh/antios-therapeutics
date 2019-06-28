@@ -2,7 +2,7 @@
 title = "Investors"
 slug = "investors"
 parent = "about"
-bgImage = "/img/contact-slider-bg.jpg"
+bgImage = "/img/aboutBg.jpg"
 +++
 
 ![Lumira Ventures](/img/Investors/lumira.jpg) ![Domain Associates](/img/Investors/domain-associates.jpg) ![Cam Capital](/img/Investors/cam-capital.jpg)
