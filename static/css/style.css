@@ -105,11 +105,27 @@ max-height: 300px;
 .directors-details .directors-row h3{margin-top: 5px;font-size: 20px;}
 .leadership-section.directors-row aside{border:none !important;}
 #global-header  h1.block3{color: #2b8caa !important;}
-
+.home-cont-center p{color:#333333 !important;}
+.footer-manu + p{font-size: 14px !important;}
+@media only screen and (max-width: 1020px){
+	p{font-size: 16px !important;line-height: 26px !important;font-family: 'maison_neuelight', sans-serif;}
+	.footer-manu + p{font-size: 14px !important;}
+}
 @media only screen and (max-width: 767px){
+.home-cont-center h2, .home-cont-center p{text-align:center !important;}
+.footer-manu + p{font-size: 14px !important;}
+	p{font-size: 16px !important;line-height: 26px !important;font-family: 'maison_neuelight', sans-serif;}
 	#testimonial .counter-box li h4 {font-size: 18px;}
 	#slider{background-attachment: initial;}
     .cus-topspace .main-nav .navbar-nav li{display:block !important;}
     .cus-topspace .main-nav .navbar-nav li a{text-align:left !important; padding: 8px 30px !important;}
+	.home-cont-center p{ font-size: 16px !important; line-height: 26px !important; color:#333333 !important;}
+}
+@media only screen and (max-width: 420px){
+	.address-block li a{
+		float: left;
+		width: 100%;
+		padding-left: 35px;
+	}
 }
 

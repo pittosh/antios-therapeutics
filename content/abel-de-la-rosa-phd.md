@@ -1,10 +1,10 @@
 +++
 title = "Abel De La Rosa, PhD"
-slug = "abel-de-la-rosa"
+slug = "abel-de-la-rosa-phd"
 bgImage = "/img/leadership/abel-de-la-rosa.jpg"
-type = "leadership"
-weight = "1"
-position = "Chief Executive Officer"
+type = "bod"
+weight = "5"
+position = "Antios Therapeutics"
 layout = "directors"
 +++
 
