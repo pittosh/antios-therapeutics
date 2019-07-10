@@ -20,8 +20,9 @@ collections: # A list of collections the CMS should be able to edit
       # - {label: "Intro Blurb", name: "description", widget: "text" , required: false}
       - {label: "Image", name: "bgImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "pages"
-    label: "Pages"
+  - name: "News"
+    label: "News"
+    folder: "content/news"
     files:
       - file: "content/_index.md"
         label: "Home Page"
