@@ -20,7 +20,7 @@ collections: # A list of collections the CMS should be able to edit
       # - {label: "Intro Blurb", name: "description", widget: "text" , required: false}
       - {label: "Image", name: "bgImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-    - name: "News" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "News" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "News" # Used in the UI, ie.: "New Post"
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
