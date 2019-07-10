@@ -37,9 +37,9 @@
 		 
 		 
 		 <div class="directors-row">
-		 <div class="row">
+		 <div class="row row-class">
 		  {{ range first 5 (where .Site.Pages "Type" "bod") }}
-		 <div class="col-md-3">
+		 <div class="col-md-2">
 		 <aside>
 		 
 		 <a href="{{ .Permalink }}"><img{{ with .Params.bgImage }} src="{{ . }}"{{ end }} alt="{{ .Title }}" class="img-responsive"></a>
