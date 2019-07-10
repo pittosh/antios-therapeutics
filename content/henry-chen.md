@@ -1,7 +1,7 @@
 ---
 title: Henry Chen
 date: 2019-07-10T04:08:26.954Z
-description: .
+description: Mr. Chen founded Delos Capital
 ---
 Mr. Chen founded Delos Capital, a life sciences fund fostering development and collaboration of innovation globally, in 2014. Mr. Chen is the Managing Partner of Delos Capitalllll
 
