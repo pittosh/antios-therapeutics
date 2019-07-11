@@ -43,7 +43,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "slug", name: "slug", widget: "string"}
           - {label: "Image", name: "bgImage", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
-          files:
+    files:
       - file: "content/science.md"
         label: "Science"
         name: "Science"
