@@ -43,13 +43,13 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "slug", name: "slug", widget: "string"}
           - {label: "Image", name: "bgImage", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "content/science.md"
-        label: "Science"
-        name: "Science"
+      - file: "data/testimonial.yml"
+        label: "Testimonial"
+        name: "testimonial"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "slug", name: "slug", widget: "string"}
-          - {label: "Image", name: "bgImage", widget: "image", required: false}
+          - {label: "subtitle", name: "subtitle", widget: "string"}
+          - {label: "Image", name: "bgmImage", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/contact/_index.md"
         label: "Contact Page"
