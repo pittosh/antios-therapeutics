@@ -50,7 +50,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Title", name: "title", widget: "string"}
           - {label: "subtitle", name: "subtitle", widget: "string"}
           - {label: "Image", name: "bgmImage", widget: "image", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "numbers", name: "numbers", widget: "markdown"}
       - file: "content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
