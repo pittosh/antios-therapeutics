@@ -1,14 +1,14 @@
----
-title: Henry Chen
-slug: henry-chen
-type: bod
-weight: '4'
-position: Delos Capital
-layout: directors
-date: 2019-07-10T04:08:26.954Z
-bgImage: /img/henry_chen.jpg
----
-Mr. Chen founded Delos Capital, a life sciences fund fostering development and collaboration of innovation globally, in 2014. Mr. Chen is the Managing Partner of Delos Capitalllll
++++
+title = "Henry Chen"
+slug = "henry-chen"
+bgImage = "/img/bod/Henry_Chen.jpg"
+type = "bod"
+weight = "4"
+position = "Delos Capital"
+layout = "directors"
++++
+
+Mr. Chen founded Delos Capital, a life sciences fund fostering development and collaboration of innovation globally, in 2014. Mr. Chen is the Managing Partner of Delos Capital.
 
 Prior to establishing Delos Capital, Mr. Chen was a Partner and Co-Head of Asia at Permira, a European private equity firm with global reach and a total committed capital of approximately &euro;33bn. While at Permira, Mr. Chen worked on a number of transactions including Asia Broadcast Satellite and Galaxy Entertainment Group.
 

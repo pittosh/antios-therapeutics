@@ -99,6 +99,7 @@ max-height: 300px;
     margin-bottom: 20px;
 }
 .directors-row h5{margin-bottom: 0px;}
+.directors-row h4{font-size: 16px;}
 .directors-row h3{margin-top: 3px;font-size: 12px;}
 
 .directors-details .directors-row h5{margin-bottom:0px;}
