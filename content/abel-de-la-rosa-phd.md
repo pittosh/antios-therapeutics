@@ -1,14 +1,12 @@
-+++
-title = "Abel De La Rosa, PhD"
-slug = "abel-de-la-rosa-phd"
-bgImage = "/img/leadership/abel-de-la-rosa.jpg"
-type = "bod"
-weight = "5"
-position = "Antios Therapeutics"
-layout = "directors"
-+++
-
-
+---
+title: 'Abel De La Rosa, PhD'
+slug: abel-de-la-rosa-phd
+type: bod
+weight: '5'
+position: Antios Therapeutics
+layout: directors
+bgImage: /img/leadership/abel-de-la-rosa.jpg
+---
 Dr. De La Rosa is the Chief Executive Officer, a board member, and a co-founder of Antios Therapeutics. He was most recently the Chief Scientific Officer of Drug Innovation Ventures at Emory (DRIVE) and the Emory Institute for Drug Development (EIDD), focused on the discovery and development of antiviral drugs for the treatment of viral diseases of unmet medical need and global concern. During his nearly 6-year tenure at Emory University, he helped raise
 over $40 million in funding and was a co-inventor on technologies licensed to AbbVie and Antios Therapeutics.
 
@@ -18,4 +16,4 @@ for infectious diseases and cancer.
 
 Dr. De La Rosa has served on Scientific Advisory Boards and Board of Directors of biotechnology companies. He currently serves on the Board of Directors of Celtaxys.
 
-Dr. De La Rosa earned a Fogarty Fellowship and an Intramural Research Training Award Fellowship from the National Institutes of Health, where he completed post-doctoral training in the Laboratory of Biochemistry and the Laboratory of Pathology of the National Cancer Institute. He holds a Bachelor's Degree in Microbiology from the University of California, San Diego, and a Ph.D. in Microbiology from Miami University.
+Dr. De La Rosa earned a Fogarty Fellowship and an Intramural Research Training Award Fellowship from the National Institutes of Health, where he completed post-doctoral training in the Laboratory of Biochemistry and the Laboratory of Pathology of the National Cancer Institute. He holds a Bachelor's Degree in Microbiology from the University of California, San Diego, and a Ph.D. in Microbiology from Miami University..
