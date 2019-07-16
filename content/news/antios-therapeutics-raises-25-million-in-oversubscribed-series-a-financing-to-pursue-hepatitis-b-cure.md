@@ -23,4 +23,4 @@ Following the completion of the financing round, Dr. Beni Rovinski (Lumira Ventu
 
 Antios Therapeutics is a biopharmaceutical company devoted to developing innovative therapies for viral diseases. With an experienced and proven leadership team, the company is focused on the development of its lead oral drug candidate for a potentially curative treatment of HBV infections.
 
-SOURCE Antios Therapeutics, Inc.!
+SOURCE Antios Therapeutics, Inc.
