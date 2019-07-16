@@ -1,10 +1,12 @@
-+++
-title = "Antios Therapeutics Raises $25 Million in Oversubscribed Series A Financing to Pursue Hepatitis B Cure"
-description = "International Group of Investors from Canada, the U.S. and China Support Former Senior Executives from Pharmasset and Idenix in New Venture"
-date = "2018-11-27"
-author = "Antios Therapeutics, Inc"
-+++
-
+---
+title: >-
+  Antios Therapeutics Raises $25 Million in Oversubscribed Series A Financing to
+  Pursue Hepatitis B Cure
+description: >-
+  International Group of Investors from Canada, the U.S. and China Support
+  Former Senior Executives from Pharmasset and Idenix in New Venture
+date: '2018-11-27'
+---
 ATLANTA, Nov. 27, 2018 /PRNewswire/ -- Antios Therapeutics, Inc. ("Antios") today announced the completion of a US$25 million oversubscribed Series A financing led by Lumira Ventures and Domain Associates, two prominent life science venture capital firms.  Other investors participating in the financing include CAM Capital, Delos Capital, Quantum Vista Capital, Fonds de solidarite FTQ and Georgia Research Alliance Venture Fund.  The proceeds from this financing will be used to develop ATI-2173, Antios' lead oral drug candidate for treating patients infected with Hepatitis B virus (HBV) and potentially Hepatitis D virus (HDV).
 
 Antios is a biopharmaceutical company focused on the development of novel antiviral therapies for unmet medical needs.  The company's lead program is aimed at developing a curative regimen for chronic HBV, a major unmet global health problem affecting over 250 million people worldwide, and a leading cause of chronic hepatitis, liver cirrhosis and liver cancer.  The company's founders include former senior executives from Pharmasset (acquired by Gilead Sciences) and Idenix (acquired by Merck), with decades of experience in the successful discovery, development and commercialization of transformative therapies and technologies to treat and cure viral infections.
@@ -21,4 +23,4 @@ Following the completion of the financing round, Dr. Beni Rovinski (Lumira Ventu
 
 Antios Therapeutics is a biopharmaceutical company devoted to developing innovative therapies for viral diseases. With an experienced and proven leadership team, the company is focused on the development of its lead oral drug candidate for a potentially curative treatment of HBV infections.
 
-SOURCE Antios Therapeutics, Inc.
+SOURCE Antios Therapeutics, Inc.!
