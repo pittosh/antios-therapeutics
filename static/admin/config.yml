@@ -32,8 +32,7 @@ collections: # A list of collections the CMS should be able to edit
       # - {label: "Intro Blurb", name: "description", widget: "text" , required: false}
       
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "pages"
-    label: "Pages"
+   
       - file: "data/testimonial.yml"
         label: "Testimonial"
         name: "testimonial"
