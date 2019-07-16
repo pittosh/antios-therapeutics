@@ -33,7 +33,7 @@ collections: # A list of collections the CMS should be able to edit
       
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
-    label: "Pages"
+    label: "Testimonial"
     files:
       - file: "data/testimonial.yml"
         label: "Testimonial"
@@ -87,15 +87,5 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
 
-      - file: "config.toml"
-        label: "Config"
-        name: "Config"
-        fields:
-          - {label: "title", name: "title", widget: "string"}
-          - {label: Image, name: image, widget: image}
-          - label: Slider
-            name: Slider
-            widget: list
-            fields:
-              - {label: "title", name: "title", widget: "string" }
+     
           
