@@ -20,6 +20,14 @@ collections: # A list of collections the CMS should be able to edit
       # - {label: "Intro Blurb", name: "description", widget: "text" , required: false}
       - {label: "Image", name: "bgImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+      - file: "data/testimonial.yml"
+        label: "Testimonial"
+        name: "testimonial"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "subtitle", name: "subtitle", widget: "string"}
+          - {label: "Image", name: "bgmImage", widget: "image", required: false}
+          - {label: "numbers", name: "numbers", widget: "string"}
   - name: "News" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "News" # Used in the UI, ie.: "New Post"
     folder: "content/news" # The path to the folder where the documents are stored
@@ -33,14 +41,7 @@ collections: # A list of collections the CMS should be able to edit
       
       - {label: "Body", name: "body", widget: "markdown"}
    
-      - file: "data/testimonial.yml"
-        label: "Testimonial"
-        name: "testimonial"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "subtitle", name: "subtitle", widget: "string"}
-          - {label: "Image", name: "bgmImage", widget: "image", required: false}
-          - {label: "numbers", name: "numbers", widget: "string"}
+      
       - file: "content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
