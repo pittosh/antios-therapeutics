@@ -16,4 +16,4 @@ for infectious diseases and cancer.
 
 Dr. De La Rosa has served on Scientific Advisory Boards and Board of Directors of biotechnology companies. He currently serves on the Board of Directors of Celtaxys.
 
-Dr. De La Rosa earned a Fogarty Fellowship and an Intramural Research Training Award Fellowship from the National Institutes of Health, where he completed post-doctoral training in the Laboratory of Biochemistry and the Laboratory of Pathology of the National Cancer Institute. He holds a Bachelor's Degree in Microbiology from the University of California, San Diego, and a Ph.D. in Microbiology from Miami University..
+Dr. De La Rosa earned a Fogarty Fellowship and an Intramural Research Training Award Fellowship from the National Institutes of Health, where he completed post-doctoral training in the Laboratory of Biochemistry and the Laboratory of Pathology of the National Cancer Institute. He holds a Bachelor's Degree in Microbiology from the University of California, San Diego, and a Ph.D. in Microbiology from Miami University.
