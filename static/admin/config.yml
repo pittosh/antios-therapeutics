@@ -86,20 +86,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
-    - label: "Configs"
-      files:
-      - name: "configs"
-        label: "config.toml"
-        file: "config.toml"
-        fields:
-          - name: "params"
-            label: "params"
-            widget: "object"
-            fields:
-              - name: "slider"
-                label: "slider"
-                widget: "object"
-                fields:
-                  - {label: "title", name: "title", widget: "string"}
-         
 
+     
+          
