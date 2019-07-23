@@ -110,10 +110,29 @@ max-height: 300px;
 .footer-manu + p{font-size: 14px !important;}
 .row-class .col-md-2 {width: 20%; float:left;}
 
+p.science-subhead {
+    color: #2b8caa;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.science-img img{
+      height: auto;
+  width: 800px;
+  }
+
 @media only screen and (max-width: 1020px){
 	p{font-size: 16px !important;line-height: 26px !important;font-family: 'maison_neuelight', sans-serif;}
 	.footer-manu + p{font-size: 14px !important;}
 }
+
+@media only screen and (max-width: 991px) {
+  .science-img img {
+      height: auto;
+  width: 100%
+  }
+}
+
 @media only screen and (max-width: 767px){
 .row-class .col-md-2 {width: 100%;}
 .home-cont-center h2, .home-cont-center p{text-align:center !important;}
