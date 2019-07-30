@@ -12,6 +12,6 @@ Unlike other nucleoside analogues against HBV, the active 5' triphosphate of ATI
 
 {{< figure src="/img/Achieving-an-HBV-Cure.jpg"  class="text-center science-img">}}
 
-<p class="text-center science-subhead"><strong>Potential Curative HBV Therapy</strong></p>
+<p class="text-center science-subhead"><strong>ATI-2173: Backbone of a Curative Regimen</strong></p>
  
-{{< figure src="/img/Potential-Curative-HBV-Therapy.jpg"  class="text-center science-img">}}
+{{< figure src="/img/Backbone-of-a-Curative-Regimen.jpg"  class="text-center science-img">}}
