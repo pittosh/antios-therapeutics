@@ -173,6 +173,28 @@ display: inherit!important;
 .dropdown span:hover + .dropdown-menu {
 display: block!important;
 }
+
+.ion-ios-arrow-down {
+padding: 5px 8px 1px 8px;
+border: 1px solid #ddd;
+}
+.navbar-nav > li > .dropdown-menu{
+position: relative;
+width: 100%;
+border: none;
+box-shadow: none;
+margin-left: 30px;
+}
+header .navbar-default .navbar-nav li a {
+padding: 3px 26px!important;
+margin-bottom: 3px!important;
+margin-top: 3px!important;
+display: inline-block!important;
+min-width: 138px;
+}
+.cus-topspace {
+display:none;
+}
 }
 
 @media (max-width: 480px) {
