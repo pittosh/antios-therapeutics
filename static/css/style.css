@@ -213,6 +213,10 @@ padding-top: 42px!important;
 margin-top: 0px!important;
 margin-bottom: 0px!important;
 }
+#testimonial .counter-box li {
+width: 100%!important;
+margin: 10px 0 10px!important;
+}
 }
 
 @media (max-width: 425px) {
