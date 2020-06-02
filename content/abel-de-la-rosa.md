@@ -16,6 +16,6 @@ Prior to joining Emory University, Dr. De La Rosa was Senior Vice President of B
 development programs for the treatment of HIV, Hepatitis B and Hepatitis C, including Sofosbuvir. Prior to Pharmasset, Dr. De La Rosa held both scientific and business positions at Visible Genetics, where he was responsible for the development and improvement of genotyping tests for HIV, Hepatitis B and Hepatitis C, including the first sequencing-based HIV drug resistance test to receive FDA approval. He also held scientific positions at Innogenetics, Boston Biomedica, and Digene, developing molecular diagnostic tests for infectious diseases. He is an inventor and author on several U.S. patents and publications relating to molecular diagnostic methods, techniques and therapeutics
 for infectious diseases and cancer.
 
-Dr. De La Rosa has served on Scientific Advisory Boards and Board of Directors of biotechnology companies. He currently serves on the Board of Directors of Celtaxys.
+Dr. De La Rosa has served on Scientific Advisory Boards and Board of Directors of biotechnology companies.
 
 Dr. De La Rosa earned a Fogarty Fellowship and an Intramural Research Training Award Fellowship from the National Institutes of Health, where he completed post-doctoral training in the Laboratory of Biochemistry and the Laboratory of Pathology of the National Cancer Institute. He holds a Bachelor's Degree in Microbiology from the University of California, San Diego, and a Ph.D. in Microbiology from Miami University.

@@ -120,6 +120,15 @@ p.science-subhead {
       height: auto;
   width: 800px;
   }
+  
+  
+  
+  
+  
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
 
 @media only screen and (max-width: 1020px){
 	p{font-size: 16px !important;line-height: 26px !important;font-family: 'maison_neuelight', sans-serif;}
@@ -150,5 +159,59 @@ p.science-subhead {
 		width: 100%;
 		padding-left: 35px;
 	}
+}
+
+
+
+
+
+
+@media (max-width:767px) {
+.dropdown:hover .dropdown-menu {
+display: inherit!important;
+}
+.dropdown span:hover + .dropdown-menu {
+display: block!important;
+}
+}
+
+@media (max-width: 480px) {
+#slider {
+padding-top: 90px!important;
+padding-bottom: 0px!important;
+background-size: contain!important;
+background-position: left 100px!important;
+height: 302px;
+}
+#slider .block h1 {
+font-size: 26px!important;
+line-height: 30px!important;
+width: 65%!important;
+padding-top: 42px!important;
+margin-top: 0px!important;
+margin-bottom: 0px!important;
+}
+}
+
+@media (max-width: 425px) {
+#slider {
+background-size: 440px!important;
+height: 285px!important;
+}
+}
+@media (max-width: 375px) {
+#slider .block h1 {
+width: 80%!important;
+padding-top: 30px!important;
+}
+@media (max-width: 320px) {
+#slider {
+background-size: 380px!important;
+height: 260px!important;
+}
+#slider .block h1 {
+font-size: 22px!important;
+line-height: 25px!important;
+}
 }
 
