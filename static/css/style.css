@@ -176,7 +176,6 @@ display: block!important;
 
 .ion-ios-arrow-down {
 padding: 5px 8px 1px 8px;
-border: 1px solid #ddd;
 }
 .navbar-nav > li > .dropdown-menu{
 position: relative;
@@ -197,6 +196,14 @@ display:none;
 }
 }
 
+
+@media (max-width: 484px) {
+.cus-topspace + #global-header {
+    padding-top: 200px!important;
+}
+
+}
+
 @media (max-width: 480px) {
 #slider {
 padding-top: 90px!important;
@@ -206,16 +213,21 @@ background-position: left 100px!important;
 height: 302px;
 }
 #slider .block h1 {
-font-size: 26px!important;
-line-height: 30px!important;
-width: 65%!important;
-padding-top: 42px!important;
+font-size: 19px!important;
+line-height: 22px!important;
+width: 73%!important;
+padding-top: 50px!important;
 margin-top: 0px!important;
 margin-bottom: 0px!important;
+color: #2b8caa;
+padding-left: 13%!important;
 }
 #testimonial .counter-box li {
 width: 100%!important;
 margin: 10px 0 10px!important;
+}
+#feature {
+background: #f6f6f6!important;
 }
 }
 
@@ -228,7 +240,7 @@ height: 285px!important;
 @media (max-width: 375px) {
 #slider .block h1 {
 width: 80%!important;
-padding-top: 30px!important;
+
 }
 @media (max-width: 320px) {
 #slider {
@@ -236,8 +248,7 @@ background-size: 380px!important;
 height: 260px!important;
 }
 #slider .block h1 {
-font-size: 22px!important;
-line-height: 25px!important;
+padding-top: 42px!important;
 }
 }
 
