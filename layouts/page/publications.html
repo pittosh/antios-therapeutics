@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{ partial "head.html" . }}
+</head>
+<body>
+
+	{{ partial "header.html" . }}
+		{{ if isset .Params "id" }}
+		{{ partial .Params.id . }}
+	{{ else }}
+		<!-- {{ partial "global-header.html"}} -->
+		<section id="global-header">
+		<!--<img src="../img/contact-slider-bg.jpg" alt="header img" class="img-header">-->
+		
+		<img{{ with .Params.bgImage }} src="{{ . }}"{{ end }} alt="{{ .Title }}" class="img-header">
+ <div class="bg-overlay"></div>
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				<div class="block">
+				  <h1>{{ .Title }}</h1>
+				 
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</section>
+		<main>
+		<div class="container">
+		<p>&nbsp;</p>
+		<p>{{ .Content | safeHTML}}
+                        {{ if isset .Params "pdfurl" }}   
+						<object data="{{ .Params.pdfURL | absURL}}" type="application/pdf" width="100%" height="600">
+							<embed src="{{ .Params.pdfURL | absURL}}" type="application/pdf" />
+						</object>
+                         {{ end }}
+           </p>    
+		</div>
+		</main>
+	{{ end }}
+
+	{{ partial "call-to-action.html" . }}
+
+	{{ partial "footer.html" . }}
+
+	
+</body>
+</html>

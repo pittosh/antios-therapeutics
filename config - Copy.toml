@@ -1,54 +1,18 @@
 title = "Developing Innovative Therapies to Treat and Cure Viral Diseases | Antios Therapeutics"
-baseURL = "/"
+baseURL = "https://www.antiostherapeutics.com/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
 [menu]
 
-
-
-# main menu
   [[menu.header]]
     weight = 2
     name = "Science"
     url = "/science"
-	hasChildren = true
-	  [[menu.header]]
-	  parent = "Science"
-	  name = "Overview"
-	  URL = "/science"
-
-	  [[menu.header]]
-	  parent = "Science"
-	  name = "Publications"
-	  URL = "/publications"
-	  
   [[menu.header]]
     weight = 3
     name = "About"
     url = "/about"
-	hasChildren = true
-	  [[menu.header]]
-	    weight = 1
-		parent = "About"
-		name = "Leadership"
-		url = "/leadership"
-	  [[menu.header]]
-	    weight = 2
-		parent = "About"
-		name = "Board of Directors"
-		url = "/board-of-directors"	
-	  [[menu.header]]
-	    weight = 3
-		parent = "About"
-		name = "Scientific Advisors"
-		url = "/scientific-advisors"
-	  [[menu.header]]
-	    weight = 4
-		parent = "About"
-		name = "Investors"
-		url = "/investors"
-	
   [[menu.header]]
     weight = 4
     name = "News"
@@ -57,9 +21,23 @@ theme = "airspace-hugo"
     weight = 5
     name = "Contact"
     url = "/contact"
-
-
   
+  [[menu.footer]]
+    weight = 1
+    name = "Science"
+    url = "/science"
+  [[menu.footer]]
+    weight = 2
+    name = "About"
+    url = "/about"
+  [[menu.footer]]
+    weight = 3
+    name = "News"
+    url = "/news"
+  [[menu.footer]]
+    weight = 4
+    name = "Contact"
+    url = "/contact"
   #[[menu.footer]]
   #  weight = 5
   #  name = "Terms"
@@ -68,11 +46,11 @@ theme = "airspace-hugo"
   [[menu.science]]
     weight = 1
     name = "Overview"
-    url = "/science"
+    url = "#"
   [[menu.science]]
     weight = 2
     name = "Publications"
-    url = "/publications"
+    url = "#"
 	
   [[menu.about]]
     weight = 1
