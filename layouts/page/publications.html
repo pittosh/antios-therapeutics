@@ -34,7 +34,7 @@
 						<!-- <object data="{{ .Params.pdfURL | absURL}}" type="application/pdf" width="100%" height="600">
 							<embed src="{{ .Params.pdfURL | absURL}}" type="application/pdf" />
 						</object> -->
-						<iframe src="https://docs.google.com/viewer?url=http://www.pdf995.com/samples/pdf.pdf&embedded=true" frameborder="0" height="501px" width="100%"></iframe>
+						<iframe src="https://docs.google.com/viewer?url={{ .Params.pdfURL | absURL}}&embedded=true" frameborder="0" height="501px" width="100%"></iframe>
                          {{ end }}
            </p>    
 		</div>
