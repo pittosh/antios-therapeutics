@@ -31,9 +31,10 @@
 		<p>&nbsp;</p>
 		<p>{{ .Content | safeHTML}}
                         {{ if isset .Params "pdfurl" }}   
-						<object data="{{ .Params.pdfURL | absURL}}" type="application/pdf" width="100%" height="600">
+						<!-- <object data="{{ .Params.pdfURL | absURL}}" type="application/pdf" width="100%" height="600">
 							<embed src="{{ .Params.pdfURL | absURL}}" type="application/pdf" />
-						</object>
+						</object> -->
+						<iframe src="https://docs.google.com/viewer?url=http://www.pdf995.com/samples/pdf.pdf&embedded=true" frameborder="0" height="500px" width="100%"></iframe>
                          {{ end }}
            </p>    
 		</div>
