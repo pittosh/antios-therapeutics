@@ -27,7 +27,7 @@
 		<main>
 		<div class="container">
 		{{ if eq .Slug "board-of-directors" }} 
-		<div class="investor">
+		<div class="investorhead">
 		{{ end }}
 			
 		  
@@ -38,8 +38,8 @@
 		 
 		 <div class="directors-row">
 		 <div class="row row-class">
-		  {{ range first 5 (where .Site.Pages "Type" "bod") }}
-		 <div class="col-md-2">
+		  {{ range first 6 (where .Site.Pages "Type" "bod") }}
+		 <div class="col-md-4">
 		 <aside>
 		 
 		 <a href="{{ .Permalink }}"><img{{ with .Params.bgImage }} src="{{ . }}"{{ end }} alt="{{ .Title }}" class="img-responsive"></a>

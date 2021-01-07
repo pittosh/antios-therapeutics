@@ -28,6 +28,11 @@
 		</section>
 		<main>
 		<div class="container">
+		
+		{{ if eq .Slug "hepatitis-b-virus" }}
+			{{ partial "testimonial.html" . }}
+		{{ end }}
+		
 		{{ if eq .Slug "investors" }} 
 		<div class="investor">
 		{{ end }}
@@ -37,6 +42,9 @@
 		{{ if eq .Slug "investors" }} 
 		</div>
 		{{ end }}
+		
+		
+		
 		</div>
 		</main>
 	{{ end }}

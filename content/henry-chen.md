@@ -3,7 +3,7 @@ title = "Henry Chen"
 slug = "henry-chen"
 bgImage = "/img/bod/Henry_Chen.jpg"
 type = "bod"
-weight = "4"
+weight = "6"
 position = "Delos Capital"
 layout = "directors"
 +++

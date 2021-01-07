@@ -430,8 +430,10 @@ main{min-height:420px;}
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+.investorhead{text-align:center;}
+.investorhead img{width: 200px !important;}
 .investor{text-align:center;}
-.investor img{width: 300px;}
+.investor img{width: 300px !important;}
 
 /*--
 	portfolio-work Start
@@ -931,12 +933,12 @@ footer .footer-manu ul li a:hover {
 }
 .directors-row  aside{
 	text-align:center;
-	border:1px solid #dbdbdb;
+	/*border:1px solid #dbdbdb;*/
 	padding: 10px;
 	margin-bottom:25px;
 }
 .directors-row  aside .details{
-	min-height:100px;
+	min-height:40px;
 }
 .img-responsive {
 	display:inline-block!important;

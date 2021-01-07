@@ -11,6 +11,10 @@
       {{ with .Site.Params.feature.button }}
       	<a href="{{ .url }}" class="btn btn-view-works">{{ .caption }}</a>
       {{ end }}
+	  <h2 class="text-uppercase">{{ .Site.Params.feature.titleHead }}</h2>
+	  <div class="global-cont">
+      	<p>{{ .Site.Params.feature.contentSubTwo | markdownify }}</p>
+      </div>
     </div>
   </div>
 </div>

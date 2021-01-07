@@ -27,7 +27,7 @@
 		<main>
 		<div class="container">
 		{{ if eq .Slug "scientific-advisors" }} 
-		<div class="investor">
+		<div class="investorhead">
 		{{ end }}
 			
 		  
@@ -39,7 +39,7 @@
 		 <div class="directors-row">
 		 <div class="row row-class">
 		  {{ range first 5 (where .Site.Pages "Type" "sa") }}
-		 <div class="col-md-2">
+		 <div class="col-md-4">
 		 <aside>
 		 
 		 <a href="{{ .Permalink }}"><img{{ with .Params.bgImage }} src="{{ . }}"{{ end }} alt="{{ .Title }}" class="img-responsive"></a>

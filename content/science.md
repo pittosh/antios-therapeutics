@@ -6,15 +6,8 @@ bgImage = "/img/science-banner.jpg"
 +++
 
 
-ATI-2173 is a novel phosphoramidate pro-drug of clevudine. The molecule was designed to selectively deliver the 5' monophosphate to the liver, potentially eliminating the off-target effects of clevudine, while retaining the unique anti-HBV activity of the active 5' triphosphate.
+Despite a preventive vaccine and available therapies, there is currently no cure for chronic HBV infection. Current therapies, chain-terminating nucleoside analogues ("NAs," including tenofovir and entecavir), control viral replication, but virus rebounds quickly to baseline upon discontinuation of therapy in the majority (>90%) of patients. It is believed that resistance to cure is driven by the production of cccDNA. 
 
-Unlike other nucleoside analogues against HBV, the active 5' triphosphate of ATI-2173 is not a chain terminator. It binds to the active site of the HBV polymerase, altering the structure of the enzyme, preventing its own incorporation into DNA, while inhibiting all stages of HBV DNA synthesis (priming, priming polymerization and post-priming DNA synthesis).
-
-
-<p class="text-center science-subhead"><strong>Achieving an HBV Cure</strong></p>
-
-{{< figure src="/img/Achieving-an-HBV-Cure.jpg"  class="text-center science-img">}}
-
-<p class="text-center science-subhead"><strong>ATI-2173: Backbone of a Curative Regimen</strong></p>
+NAs inhibit some stages of DNA synthesis by competing for nucleotide positions in the HBV DNA chain, preventing further elongation. Conversely, ATI-2173's active metabolite is the only nucleotide that inhibits all stages of DNA synthesis by distorting its enzyme's active site, non-competitively.
  
-{{< figure src="/img/Backbone-of-a-Curative-Regimen.jpg"  class="text-center science-img">}}
+ATI-2173 is anActive Site Polymerase Inhibitor Nucleotide (ASPIN) that is in development as the backbone of an oral, once-daily potential curative therapy for HBV. It is a liver-targeted (low systemic exposure) phosphoramidate pro-drug of clevudine, in which the active metabolite inhibits all stages of DNA synthesis by distorting its enzyme's active site, non-competitively.ATI-2173's liver targeting has been confirmed in rat and monkey PK studies, withmonkey PK studies confirming 82% first-pass uptake.Unlike currently available therapies, which require lifelong treatment to provide ongoing viral suppression, the combination of ATI-2173 with a chain-terminating nucleoside analogue could completely shut down the HBV polymerase and all viral replication.
