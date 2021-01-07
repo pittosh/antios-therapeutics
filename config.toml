@@ -1,5 +1,5 @@
 title = "Developing Innovative Therapies to Treat and Cure Viral Diseases | Antios Therapeutics"
-baseURL = "https://www.antiostherapeutics.com/"
+baseURL = "https://antios-therapeutics.netlify.app"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
