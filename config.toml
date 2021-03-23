@@ -14,24 +14,34 @@ theme = "airspace-hugo"
     url = "/science"
 	hasChildren = true
 	  [[menu.header]]
+	  weight = 1
 	  parent = "Science"
 	  name = "Overview"
 	  URL = "/science"
 
 	  [[menu.header]]
-	  parent = "Science"
-	  name = "Publications"
-	  URL = "/publications"
-	  
-	  [[menu.header]]
+	  weight = 2
 	  parent = "Science"
 	  name = "Hepatitis B Virus"
 	  URL = "/hepatitis-b-virus"
 	  
 	  [[menu.header]]
+	  weight = 3
 	  parent = "Science"
 	  name = "Hepatitis Delta Virus"
 	  URL = "/hepatitis-delta-virus"
+	  
+	  [[menu.header]]
+	  weight = 4
+	  parent = "Science"
+	  name = "ATI-2173"
+	  URL = "/ati-2173"
+	  
+	  [[menu.header]]
+	  weight = 5
+	  parent = "Science"
+	  name = "Publications"
+	  URL = "/publications"
 	  
   [[menu.header]]
     weight = 2
@@ -80,17 +90,21 @@ theme = "airspace-hugo"
     name = "Overview"
     url = "/science"
   [[menu.science]]
-    weight = 2
+    weight = 5
     name = "Publications"
     url = "/publications"
   [[menu.science]]
-    weight = 3
+    weight = 2
     name = "Hepatitis B Virus"
     url = "/hepatitis-b-virus"
   [[menu.science]]
-    weight = 4
+    weight = 3
     name = "Hepatitis Delta Virus"
     url = "/hepatitis-delta-virus"
+  [[menu.science]]
+    weight = 4
+    name = "ATI-2173"
+    url = "/ati-2173"	
 	
   [[menu.about]]
     weight = 1
@@ -129,8 +143,9 @@ theme = "airspace-hugo"
   [params.wrapper]
     enable = true
     title = "About Us"
-    italic = "Antios Therapeutics is a clinical-stage biopharmaceutical company focused on the development of innovative therapies to treat and cure viral diseases. Our lead therapeutic candidate, ATI-2173, is a first-in-class Active Site Polymerase Inhibitor Nucleotide (ASPIN) that is in development as the backbone of an oral, once-daily potential curative therapy for HBV."
-   # paragraph = "Our team has decades of experience developing life changing therapies and technologies to treat and cure viral diseases."
+    italic = "Antios Therapeutics is a clinical-stage biopharmaceutical company focused on the development of therapies to treat and cure viral diseases. Our lead candidate, ATI-2173, is a novel, orally-administered, liver-targeted Active Site Polymerase Inhibitor Nucleotide (ASPIN) that is in development as the backbone of a once-daily potential curative therapy for Hepatitis BVirus."
+    #paragraph = "Our team has decades of experience developing life changing therapies and technologies to treat and cure viral diseases."
+    url = "https://www.antiostherapeutics.com/science/"
 
   [params.blog]
     enable = true
@@ -139,15 +154,15 @@ theme = "airspace-hugo"
 	
   [params.feature]
     enable = true
-    title = "HBV: A GLOBAL HEALTH CHALLENGE"
-    content = "HBV is a virus of the liver transmitted through contact with blood or other body fluids of an infected individual. An estimated 1 out of 3 people have been infected worldwide. Many have no symptoms and either recover or develop chronic liver disease."
-    contentSec = "Approximately 5% of those with acute HBV develop chronic HBV (over 250 million individuals worldwide), leading to scarring of the liver, liver cancer, and can be fatal if left untreated, with approximately 900,000 deaths per year (greater than HCV and HIV combined). Fewer than 25% of diagnosed carriers in the U.S. are under care, and fewer than 20% of those under care are on treatment. The HBV burden is even greater in China, with an estimated 90-100 million chronically infected individuals."
-	contentThird = "While current treatments prevent progression of liver disease by reducing viral replication, only 5 - 10% of those chronically infected can be cured, meaning that most patients require lifelong treatment to control their infection."
+    title = "HBV: A GLOBAL HEALTH EPIDEMIC"
+    content = "HBV infects an estimated 1 out of 3 people worldwide. More than 290 million individuals develop chronic HBV, which leads to scarring of the liver, liver cancer, and other significant health problems."
+    contentSec = "It can be fatal if left untreated, with approximately 900,000 deaths per year."
+	contentThird = "The HBV burden is especially significant in China, with an estimated 90-100 million chronically infected individuals."
 	titleHead = "ATI-2173: A POTENTIAL SOLUTION"
-	contentSubTwo = "Combining ATI-2173 with a nucleoside analogue in a once-a-day regimen could completely shut down HBV polymerase activity and viral replication, potentially curing HBV infected individuals. "
-	# [params.feature.button]
-    #  caption = "View Works"
-    #  url = "#"
+	contentSubTwo = "ATI-2173 is a first-in-class ASPIN that can shut down HBV polymerase activity and viral replication. It is in development as the backbone, in combination with a nucleoside analogue or other antivirals, of an oral, once-daily potential curative regimen for chronic HBV. "
+	 [params.feature.button]
+      caption = "Read more"
+     url = "https://www.antiostherapeutics.com/hepatitis-b-virus/"
 
 
   # [params.call]

@@ -3,7 +3,7 @@ title = "Greg Mayes"
 slug = "greg-mayes"
 bgImage = "/img/leadership/greg-mayes.jpg"
 type = "bod"
-weight = "2"
+weight = "3"
 position = "Antios Therapeutics"
 layout = "directors"
 +++

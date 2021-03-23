@@ -3,7 +3,7 @@ title = "Benjamin Rovinski, PhD"
 slug = "benjamin-rovinski"
 bgImage = "/img/bod/Benjamin_Rovinski.jpg"
 type = "bod"
-weight = "3"
+weight = "2"
 position = "Lumira Ventures"
 layout = "directors"
 +++

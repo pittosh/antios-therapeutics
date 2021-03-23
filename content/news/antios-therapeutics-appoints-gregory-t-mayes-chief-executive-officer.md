@@ -7,7 +7,7 @@ author = "Antios Therapeutics, Inc."
 
 #### *Former CEO and Antios co-founder, Abel De La Rosa, Ph.D., appointed Chairman of the Board of Directors*
 
-#### *Mayes to lead continued development of ATI-2173 as a potential backboneof a curative regimen for Hepatitis B ("HBV")*
+#### *Mayes to lead continued development of ATI-2173 as a potential backbone of a curative regimen for Hepatitis B ("HBV")*
 
 
 ATLANTA, Dec. 01, 2020 (GLOBE NEWSWIRE) -- Antios Therapeutics, Inc. ("Antios") today announced the appointment of Gregory T. Mayes as Chief Executive Officer and Director. Mr. Mayes succeeds Abel De La Rosa, Ph.D., who co-founded Antios in 2018 and has served as CEO and Director since its inception. Dr. De La Rosa, who is retiring from his full-time role, will remain with Antios as an advisor and will assume the role of Chairman of its Board of Directors.

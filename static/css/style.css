@@ -147,6 +147,7 @@ width: 200px !important;
 .leadership-section {
 text-align: center;
 }
+.conbox img {width: 100%;}
 /* >>> MEDIA QUERY >>> STARTS */
 @media (max-width:1460px) {
 #slider .block h1 {
