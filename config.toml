@@ -10,36 +10,36 @@ theme = "airspace-hugo"
 # main menu
   [[menu.header]]
     weight = 3
-    name = "Science"
-    url = "/science"
+    name = "Research & Development"
+    url = "/research-development"
 	hasChildren = true
 	  [[menu.header]]
 	  weight = 1
-	  parent = "Science"
+	  parent = "Research & Development"
 	  name = "Overview"
-	  URL = "/science"
+	  URL = "/research-development"
 
 	  [[menu.header]]
 	  weight = 2
-	  parent = "Science"
+	  parent = "Research & Development"
 	  name = "Hepatitis B Virus"
 	  URL = "/hepatitis-b-virus"
 	  
 	  [[menu.header]]
 	  weight = 3
-	  parent = "Science"
+	  parent = "Research & Development"
 	  name = "Hepatitis Delta Virus"
 	  URL = "/hepatitis-delta-virus"
 	  
 	  [[menu.header]]
 	  weight = 4
-	  parent = "Science"
+	  parent = "Research & Development"
 	  name = "ATI-2173"
 	  URL = "/ati-2173"
 	  
 	  [[menu.header]]
 	  weight = 5
-	  parent = "Science"
+	  parent = "Research & Development"
 	  name = "Publications"
 	  URL = "/publications"
 	  
@@ -88,7 +88,7 @@ theme = "airspace-hugo"
   [[menu.science]]
     weight = 1
     name = "Overview"
-    url = "/science"
+    url = "/research-development"
   [[menu.science]]
     weight = 5
     name = "Publications"
@@ -143,7 +143,7 @@ theme = "airspace-hugo"
   [params.wrapper]
     enable = true
     title = "About Us"
-    italic = "Antios Therapeutics is a clinical-stage biopharmaceutical company focused on the development of therapies to treat and cure viral diseases. Our lead candidate, ATI-2173, is a novel, orally-administered, liver-targeted Active Site Polymerase Inhibitor Nucleotide (ASPIN) that is in development as the backbone of a once-daily potential curative therapy for Hepatitis BVirus."
+    italic = "Antios Therapeutics is a clinical-stage biopharmaceutical company focused on the development of therapies to treat and cure viral diseases. Our lead candidate, ATI-2173, is a novel, orally-administered, liver-targeted Active Site Polymerase Inhibitor Nucleotide (ASPIN) that is in development as the backbone of a once-daily potential curative therapy for Hepatitis B Virus."
     #paragraph = "Our team has decades of experience developing life changing therapies and technologies to treat and cure viral diseases."
     url = "https://www.antiostherapeutics.com/science/"
 

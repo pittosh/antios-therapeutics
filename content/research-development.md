@@ -1,15 +1,15 @@
 +++
-title = "Science"
-slug = "science"
+title = "Research & Development"
+slug = "research-development"
 
 bgImage = "/img/science-banner.jpg"
 +++
 
-Although there is vaccine to prevent HBV infection, for people already infected there are treatments that control the disease but there is no cure for chronic HBV infection. Current therapies, including chain-terminating nucleoside analogues ('NAs') such astenofovir and entecavir, control viral replication, but viral load quickly rebounds to pre-treatment levels upon discontinuation of therapy in the majority (>90%) of patients. It is believed that resistance to cure is driven by the persistenceof the viral genomic reservoir, covalently closed circular DNA(cccDNA), in the host cell. 
+Although there is a vaccine to prevent HBV infection, for people already infected there are treatments that control the disease but there is no cure for chronic HBV infection. Current therapies, including chain-terminating nucleoside analogues ("NAs") such as tenofovir and entecavir, control viral replication, but viral load quickly rebounds to pre-treatment levels upon discontinuation of therapy in the majority (>90%) of patients. It is believed that resistance to cure is driven by the persistence of the viral genomic reservoir, covalently closed circular DNA (cccDNA), in the host cell. 
 ![HBV](/img/HBV.jpg)
 
 
-Traditional, chain-terminating NAs inhibit competing for nucleotide positions in the HBV DNA chain, preventing further elongation. However, if treatment is stopped there is nothing to prevent HBV DNA synthesis and viral replication starts anew.
+Traditional, chain-terminating NAs inhibit some stages of DNA synthesis by competing for nucleotide positions in the HBV DNA chain, preventing further elongation. However, if treatment is stopped there is nothing to prevent HBV DNA synthesis and viral replication starts a new.
 ![HBV](/img/tenofovir.jpg)
 
 ATI-2173's active metabolite is the ONLY nucleotide that inhibits all stages of DNA synthesis by distorting its enzyme's active site, non-competitively. Unlike traditional NA's, which inhibit viral replication one new genome at a time, ATI-2173/ASPINs inhibit replication one polymerase at a time, leading to a more efficient mechanism of inhibition.
