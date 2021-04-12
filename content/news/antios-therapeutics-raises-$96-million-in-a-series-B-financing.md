@@ -1,16 +1,16 @@
 +++
 title = "Antios Therapeutics Raises $96 Million in a Series B Financing"
-date = "2020-04-12"
+date = "2021-04-12"
 author = "Antios Therapeutics, Inc."
 +++
 
 
 #### *Funding will support the Phase 2 clinical program of ATI-2173 in HBV*
 
-#### *Soleus Capital led the round with new major investors RA Capital Management, Adage Capital Management LP, Pontifax and Aisling Capital as well as Altium Capital, Amzak Health, Granite Point Capital Management, LP, and LifeSci Venture Partners and participating existing investors Lumira Ventures, Cam Capital, Delos Capital, Domain Associates and Sixty Degree Capital*
+#### *Soleus Capital led the round with new major investors RA Capital Management, Adage Capital Management LP, Pontifax and Aisling Capital as well as Altium Capital, Amzak Health, Granite Point Capital Management, LP, and LifeSciA Venture Partners and participating existing investors Lumira Ventures, Cam Capital, Delos Capital, Domain Associates and Sixty Degree Capital*
 
 
-MENDHAM, N.J., April 12, 2021 (GLOBE NEWSWIRE) -- Antios Therapeutics, Inc. ("Antios") today announced the successful completion of a $96 million Series B financing. The proceeds from this financing will support the ongoing Phase 2 clinical program which is evaluating the potential for the Company’s lead clinical candidate, ATI-2173, to be a backbone of a once-daily curative regimen for chronic hepatitis B. ATI-2173 is a novel, orally administered, liver-targeted Active Site Polymerase Inhibitor Nucleotide (ASPIN) that can shut down HBV polymerase activity and viral replication.
+MENDHAM, N.J., April 12, 2021 (GLOBE NEWSWIRE) -- Antios Therapeutics, Inc. ("Antios") today announced the successful completion of a $96 million Series B financing. The proceeds from this financing will support the ongoing Phase 2 clinical program which is evaluating the potential for the Company's lead clinical candidate, ATI-2173, to be a backbone of a once-daily curative regimen for chronic hepatitis B. ATI-2173 is a novel, orally administered, liver-targeted Active Site Polymerase Inhibitor Nucleotide (ASPIN) that can shut down HBV polymerase activity and viral replication.
 
 The financing was led by Soleus Capital with participation from new major investors RA Capital Management, Adage Capital Management LP, Pontifax and Aisling Capital as well as other healthcare focused funds, Altium Capital, Amzak Health, Granite Point Capital Management, LP, and LifeSci Venture Partners and participation from all of the original Series A investors including Lumira Ventures, CAM Capital, Delos Capital, Domain Associates and Sixty Degree Capital. David Canner, Partner at Soleus Capital and Iyona Rajkomar, MBBS, CFA, Partner at Pontifax, are joining the Board of Directors.
 
@@ -20,7 +20,7 @@ Guy Levy, Chief Investment Officer of Soleus Capital said, "Despite significant 
 
 
 ## About ATI-2173
-ATI-2173 is a novel, orally administered, liver-targeted Active Site Polymerase Inhibitor Nucleotide (ASPIN) molecule designed to deliver the 5’-monophosphate of clevudine to the liver. This L-nucleoside’s active 5’-triphosphate has unique antiviral properties as a non-competitive, non-chain terminating HBV polymerase inhibitor that distorts the active site of HBV polymerase resulting in potent HBV antiviral activity and extended off-treatment suppression of HBV DNA. ATI-2173 targets the liver, delivering high levels of the unique 5’- triphosphate while limiting systemic exposure to the parent L-nucleoside. ATI-2173 has the potential to become an integral part of a curative combination regimen for chronic hepatitis B.
+ATI-2173 is a novel, orally administered, liver-targeted Active Site Polymerase Inhibitor Nucleotide (ASPIN) molecule designed to deliver the 5'-monophosphate of clevudine to the liver. This L-nucleoside's active 5'-triphosphate has unique antiviral properties as a non-competitive, non-chain terminating HBV polymerase inhibitor that distorts the active site of HBV polymerase resulting in potent HBV antiviral activity and extended off-treatment suppression of HBV DNA. ATI-2173 targets the liver, delivering high levels of the unique 5'- triphosphate while limiting systemic exposure to the parent L-nucleoside. ATI-2173 has the potential to become an integral part of a curative combination regimen for chronic hepatitis B.
 
 ### About Antios Therapeutics Inc.
 Antios Therapeutics is a clinical-stage biopharmaceutical company focused on the development of innovative therapies to treat and cure viral diseases. Antios is currently developing ATI-2173, aiming to provide chronic hepatitis B infected patients with a curative combination regimen.
