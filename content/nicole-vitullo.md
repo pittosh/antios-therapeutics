@@ -2,7 +2,7 @@
 title = "Nicole Vitullo"
 slug = "nicole-vitullo"
 bgImage = "/img/bod/Nicole-Vitullo.jpg"
-type = "bod"
+#type = "bod"
 weight = "5"
 position = "Domain Associates"
 layout = "directors"
