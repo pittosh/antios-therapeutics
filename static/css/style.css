@@ -148,6 +148,45 @@ width: 200px !important;
 text-align: center;
 }
 .conbox img {width: 100%;}
+
+/* >>> 110621>>> STARTS */
+.customPub a {
+    font-size: 18px !important;
+    color: #333;
+    line-height: 26px;
+    font-family: 'maison_neuelight', sans-serif;
+    margin-bottom: 15px !important;
+    display: block;
+}
+p.customSlide, p.customPos {
+    display: inline-block;
+}
+p.customSlide a, p.customPos a {
+    color: #333 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+p.customSlide a i, p.customPos a i {
+    color: #4ab7c3;
+    font-size: 12px;
+    margin-right: 25px;
+}
+p.customSlide a:hover i, p.customPos a:hover i {
+    color: #2b89ab;
+}
+.customPub a:hover {
+    text-decoration: underline !important;
+}
+.post-area.customPub{
+	padding-bottom: 15px !important;
+}
+.post-area.customPub .bold {
+    color: #2b89ab;
+    line-height: 26px;
+    margin-bottom: 5px !important;
+    display: block;
+    font-size: 18px;
+}
 /* >>> MEDIA QUERY >>> STARTS */
 @media (max-width:1460px) {
 #slider .block h1 {
