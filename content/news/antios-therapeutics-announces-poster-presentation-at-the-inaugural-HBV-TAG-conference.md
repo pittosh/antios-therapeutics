@@ -13,8 +13,10 @@ author = "Antios Therapeutics, Inc."
 MENDHAM, NJ, June 11, 2021 (GLOBE NEWSWIRE) -- Antios Therapeutics, Inc. ("Antios") today announced that the Company is presenting in vitro and Phase 1a data on ATI-2173, a liver targeting Active Site Polymerase Inhibitor Nucleotide (ASPIN) in clinical development as a component of a potentially curative regimen for chronic hepatitis B (HBV) infection, at the 2021 HBV-TAG (Hepatitis B -Therapeutic Agents) Conference, being held virtually on June 11 to 12.
 
 Details of the poster presentation at HBV-TAG are as follows:
-Title: ATI-2173, a novel active site polymerase inhibitor nucleotide (ASPIN) for HBV cure regimens, is well tolerated and has favorable pharmacokinetics in healthy volunteers
-Authors: Mayers, D., et al.
+
+**Title:** ATI-2173, a novel active site polymerase inhibitor nucleotide (ASPIN) for HBV cure regimens, is well tolerated and has favorable pharmacokinetics in healthy volunteers
+
+**Authors:** Mayers, D., et al.
 
 The poster and accompanying slide presentation can be found on the Antios website at [https://www.antiostherapeutics.com/publications](https://www.antiostherapeutics.com/publications).
 
